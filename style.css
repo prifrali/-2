@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(224, 213, 234);
+}
+.header {
+    background-color: blueviolet;
+    height: 30px;
+    max-width: 100%;
+    padding: 5px 15px 5px 15px;
+}
+ 
+.navigation {
+    text-align: justify;
+    word-spacing: 5px;
+    font-size: 16px;
+}
+
+.content1 {
+    margin: 30px 0px 10px 7px;
+    padding: 5px 0px 10px 10px;
+    background-color: whitesmoke;
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 3px;
+}
+
+.content2 {
+    margin: 15px 0px 10px 7px;
+    padding: 5px 0px 10px 10px;
+    background-color: whitesmoke;
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 3px;
+}
+
+.content3 {
+    margin: 15px 0px 10px 7px;
+    padding: 5px 0px 10px 10px;
+    background-color: whitesmoke;
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 3px;
+}
+
+.content4 {
+    margin: 15px 0px 10px 7px;
+    padding: 5px 0px 10px 10px;
+    background-color: whitesmoke;
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 3px;
+}
+
+form {
+    padding: 10px;
+}
+
+input,select {
+    margin: 10px  15px;
+}
+
+.footer {
+    margin: 15px 0px 10px 7px;
+    padding: 5px 0px 10px 10px;
+    background-color: whitesmoke;
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 3px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: justify;
+    color: blueviolet;
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+    color: blueviolet;
+    text-decoration-line: underline;
+}
+
+table {
+    background: rgb(137, 137, 137);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: rgb(210, 210, 210);
+    padding: 15px;
+}
+
+td, tr {
+    background: rgb(255, 255, 255);
+    padding: 15px;
+
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: violet;
+}
+
+a:link {
+    color: black;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    transition: 1s;
+}
+
+button:hover {
+    transition: 1s;
+    background-color: rgb(241, 182, 221);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(229, 144, 193);
+}
+
+.errore-message {
+    display: none;
+    color: rgb(199, 0, 0);
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+input:valid {
+    background-color: rgb(75, 195, 75);
+    border-color: chartreuse;
+
+}
+
+input:invalid {
+    background-color: rgb(253, 156, 156);
+    border-color: rgb(222, 86, 86);
+}
+
+input:invalid + error-message {
+    display: block;
+}
