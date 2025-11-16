@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+    <header class="header">
+        <nav class="navigation">
+            <a href="#about_projekt" target="_self">О проекте</a>
+            <a href="#education">Направления обучения</a>
+            <a href="#gallery">Галерея</a>
+            <a href="#planning">Планирование и запись</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+    </header>
+
+    <main>
+        <article class="content1">
+            <h1>"PRO-Карьера" — Центр развития профессиональных компетенций</h1>
+            <h3 id="about_projekt">О проекте</h3>
+            <a href="about_projekt"></a>
+            <p>Образовательная платформа для получения востребованных digital-профессий с гарантией трудоустройства</p>
+            <p>Наша миссия: Дать каждому возможность получить профессию мечты через практическое обучение и поддержку наставников.</p>
+            <h4>Преимущества:</h4>
+            <ul>
+                <li>Только актуальные знания</li>
+                <li>Преподаватели-практики</li>
+                <li>Стажировки в компаниях-партнерах</li>
+                <li>Рассрочка платежа</li>
+            </ul>
+            <button>Записаться на консультацию</button>
+        </article>
+        
+        <section class="content2">
+            <h3 id="education">Направления обучения</h3>
+            <h4>Не знаете, с чего начать карьеру в IT?</h4>
+            <p>Мы поможем определиться! Все наши программы составлены практикующими специалистами и одобрены компаниями-партнёрами. Обучение строится на реальных кейсах, а не на устаревшей теории.</p>
+                 <h4>Сравнение направлений:</h4>
+            <table>
+                <thead>
+                    <th>Направление</th>
+                    <th>Длительность</th>
+                    <th>Формат</th>
+                    <th>Стоимость</th>
+                    <th>Трудоустройство</th>
+                    <th>Начало</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Frontend-разработка</td>
+                        <td>8 месяцев</td>
+                        <td>Очно/Онлайн</td>
+                        <td>85 000₽</td>
+                        <td>Гарантировано</td>
+                        <td>15.11.2025</td>
+                    </tr>
+                       <tr>
+                        <td>Graphic Design</td>
+                        <td>6 месяцев</td>
+                        <td>Очно/Онлайн</td>
+                        <td>65 000₽</td>
+                        <td>Помощь в поиске</td>
+                        <td>20.11.2025</td>
+                    </tr>
+                       <tr>
+                        <td>Digital-маркетинг</td>
+                        <td>5 месяцев</td>
+                        <td>Онлайн</td>
+                        <td>55 000₽</td>
+                        <td>Стажировка</td>
+                        <td>18.11.2025</td>
+                    </tr>
+                       <tr>
+                        <td>Data Analytics</td>
+                        <td>7 месяцев</td>
+                        <td>Очно/Онлайн</td>
+                        <td>75 000₽</td>
+                        <td>Гарантировано</td>
+                        <td>22.11.2025</td>
+                    </tr>
+                       <tr>
+                        <td>Python-разработк</td>
+                        <td>9 месяцев</td>
+                        <td>Очно/Онлайн</td>
+                        <td>90 000₽</td>
+                        <td>Гарантировано</td>
+                        <td>25.11.2025</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    
+        <section class="content3">
+            <h3 id="gallery">Галерея</h3>
+            <img src="picture/fon-programmirovania-s-celovekom-rabotausim-s-kodami-na-komp-utere.jpg" width="600" height="400">
+            <img src="picture/Frame_673.png" width="600" height="400">
+            <img src="picture/koncepcia-kollaza-html-i-css-s-celovekom.jpg" width="600" height="400">
+            <img src="picture/komp-uternyi-inzener-nabiraet-na-klaviature-kod-dla-sozdania-brandmauera.jpg" width="600" height="400">
+        </section>
+
+        <section class="content4">
+            <h3 id="planning">Планирование и запись</h3>
+            <h4>Ближайшие мероприятия:</h4>
+            <select>
+                <option>15.11	День открытых дверей	Офлайн</option>
+                <option>18.11	Вебинар "Карьера в IT"	Онлайн</option>
+                <option>22.11	Мастер-класс по Figma	Офлайн</option>
+                <option>25.11	Собеседование с партнерами	Офлайн</option>
+            </select>
+            <h3>Начните свой путь к успешной карьере!</h3>
+            <h4>Оставьте заявку и получите:</h4>
+            <ul>
+                <li>Персональную консультацию по выбору направления</li>
+                <li>Пробный урок бесплатно</li>
+                <li>Промокод на скидку 15%</li>
+            </ul>
+
+            <form action="#" method="post">
+                <label for="user_name">Введите ваше ФИО:</label> <br>
+                <input type="text" name="name" id="user_name" placeholder="ФИО" required> <br>
+                <label for="user_phone">Введите ваш номер телефона:</label> <br>
+                <input type="phone" name="phone" id="user_phone" pattern="[0-9]{11}" placeholder="79999999999" required> <br>
+                <div class="errore-message">Пожалуйста, введите корректный номер телефона</div>
+                <label for="email">Введите ваш email:</label> <br>
+                <input type="email" name="email" id="user_email" placeholder="example@gmail.com" required> <br>
+                <div class="errore-message">Пожалуйста, введите корректную почту</div>
+                <label for="submit">Выберите направление:</label> <br>
+                <select required>
+                <option>Frontend-разработка</option>
+                <option>Graphic Design</option>
+                <option>Digital-маркетин</option>
+                <option>Data Analytics</option>
+                <option>Python-разработк</option>
+               </select> <br>
+               <label>Вопросы и комментарии:</label> <br>
+               <textarea name="message" rows="5" cols="100"></textarea> <br>
+               <input type="submit" id="submit" value="Отправить заявку"> 
+               <button>Очистить форму</button>
+            </form>
+    </main>
+
+    <footer class="footer">
+        <h3 id="contacts">Контакты:</h3>
+        <p>Свяжитесь с нами для получения дополнительной ифнормации!</p>
+        <ul>
+            <li>Телефон:+7(495)123-45-67</li>
+            <li>Email:info@pro-career.ru</li>
+            <li>Адрес:Москва, ул. Образовательная, 15</li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
